@@ -1,0 +1,107 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "toolshop-login-testleri;customer-hesabi-icin-gecerli-verilerle-login-testi---string-parametre-kullanarak",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Customer hesabi icin gecerli verilerle login testi - String parametre kullanarak",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "Ben ToolShop sitesine giderim",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1241000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Sign in linkine tiklarim",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Email alanina \"customer@practicesoftwaretesting.com\" yazarim",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 657000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Password alanina \"welcome01\" yazarim",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 292000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Login butonuna tiklarim",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Site URL'inde \"#\" ve \"account\" kelimelerinin gectigini dogrularim",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ali",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "toolshop-login-testleri",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "ToolShop Login Testleri",
+    "tags": [],
+    "uri": "cypress\\e2e\\02-loginParameter.feature"
+  }
+]
